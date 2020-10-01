@@ -32,3 +32,7 @@ connection {
     private_key = file(var.PATH_TO_PRIVATE_KEY)
   }
 }
+
+output "ip" {
+  value = aws_instance.example.public_ip
+}
