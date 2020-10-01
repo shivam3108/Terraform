@@ -16,3 +16,16 @@ variable "AMIS" {
     eu-west-1 = "ami-0d729a60"
   }
 }
+variable "PATH_TO_PUBLIC_KEY" {
+type = string
+default = "mykey.pub"
+}
+
+variable "PATH_TO_PUBLIC_KEY" {
+  default = "mykey.pub"
+}
+
+variable "INSTANCE_USERNAME" {
+  default = "ubuntu"
+}
+
